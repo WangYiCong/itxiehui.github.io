@@ -9,7 +9,7 @@
   <meta name="description" content="本文章是本人在学习js时候的知识总结，涉及到学习过程中的一些知识点，代码练习以及新手常犯的错误与解决方法，希望对js的爱好者有帮助。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JS之事件详解（一）">
-<meta property="og:url" content="http://gdinit.cn/2016/05/19/JS之事件详解（一）/index.html">
+<meta property="og:url" content="http://zsk.gdinit.cn/2016/05/19/JS之事件详解（一）/index.html">
 <meta property="og:site_name" content="IT协会知识库">
 <meta property="og:description" content="本文章是本人在学习js时候的知识总结，涉及到学习过程中的一些知识点，代码练习以及新手常犯的错误与解决方法，希望对js的爱好者有帮助。">
 <meta property="og:image" content="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png">
@@ -272,7 +272,7 @@
 </code></pre><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">		#div1&#123;</span><br><span class="line">			width: 100px;</span><br><span class="line">			height: 100px;</span><br><span class="line">			background-color: #120047;</span><br><span class="line">			position: absolute; //别忘记加这个属性，有了定位left和top才能设置</span><br><span class="line">		&#125;</span><br><span class="line">	&lt;/style&gt;</span><br><span class="line">	&lt;script&gt;</span><br><span class="line">	document.onmousemove = function(ev)&#123;</span><br><span class="line">		var oDiv = document.getElementById('div1');</span><br><span class="line">		var oEvent = ev || event; //event在ie下才有定义</span><br><span class="line">		var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;</span><br><span class="line">		var scrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft;</span><br><span class="line"></span><br><span class="line">		oDiv.style.left = oEvent.clientX +scrollLeft+'px';</span><br><span class="line">		oDiv.style.top = oEvent.clientY + scrollTop+'px' ;</span><br><span class="line">	</span><br><span class="line">	</span><br><span class="line">	&#125;</span><br><span class="line">		</span><br><span class="line">	&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;div id="div1"&gt;&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <h4 id="3-获取鼠标在页面的绝对位置（一串跟随鼠标的div）"><a href="#3-获取鼠标在页面的绝对位置（一串跟随鼠标的div）" class="headerlink" title="3.获取鼠标在页面的绝对位置（一串跟随鼠标的div）"></a>3.获取鼠标在页面的绝对位置（一串跟随鼠标的div）</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">	&lt;style&gt;</span><br><span class="line">		div&#123;</span><br><span class="line">			width: 10px;</span><br><span class="line">			height: 10px;</span><br><span class="line">			background-color: #124888;</span><br><span class="line">			position: absolute;</span><br><span class="line">		&#125;</span><br><span class="line">	&lt;/style&gt;</span><br><span class="line"></span><br><span class="line">	&lt;script&gt;</span><br><span class="line">	window.onload = function()&#123;</span><br><span class="line">		var aDiv = document.getElementsByTagName('div');</span><br><span class="line">		var i = 0;</span><br><span class="line"></span><br><span class="line">		document.onmousemove =function (ev)&#123;</span><br><span class="line">			var oEvent = ev || event;</span><br><span class="line"></span><br><span class="line">			for(i=aDiv.length-1; i&gt;0; i--)&#123;</span><br><span class="line">				aDiv[i].style.left = aDiv[i-1].style.left;</span><br><span class="line">				aDiv[i].style.top = aDiv[i-1].style.top;</span><br><span class="line">			&#125;</span><br><span class="line"></span><br><span class="line">			aDiv[0].style.left = oEvent.clientX + 'px';</span><br><span class="line">			aDiv[0].style.top = oEvent.clientY + 'px';</span><br><span class="line"></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	Div*50</span><br><span class="line">&lt;/body&gt;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p><span style="font-size:12px">本文标题: <a href="http://gdinit.cn/2016/05/19/JS之事件详解（一）/">  JS之事件详解（一）  </a><br>文章作者: <a href="http://itxiehui.github.io/" target="_blank" rel="external">劳土铸</a><br>许可协议: <img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"><a rel="external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">?署名-非商用-相同方式共享 4.0</a></span></p>
+<p><span style="font-size:12px">本文标题: <a href="http://zsk.gdinit.cn/2016/05/19/JS之事件详解（一）/">  JS之事件详解（一）  </a><br>文章作者: <a href="http://itxiehui.github.io/" target="_blank" rel="external">劳土铸</a><br>许可协议: <img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"><a rel="external" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">?署名-非商用-相同方式共享 4.0</a></span></p>
 </blockquote>
 
       
@@ -283,11 +283,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/05/19/JS之默认行为/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/05/19/JS之事件详解（二）/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          JS之默认行为
+          JS之事件详解（二）
         
       </div>
     </a>
@@ -329,7 +329,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="JS之事件详解（一）" data-title="JS之事件详解（一）" data-url="http://gdinit.cn/2016/05/19/JS之事件详解（一）/"></div>
+	<div class="ds-thread" data-thread-key="JS之事件详解（一）" data-title="JS之事件详解（一）" data-url="http://zsk.gdinit.cn/2016/05/19/JS之事件详解（一）/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
