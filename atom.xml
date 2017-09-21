@@ -237,6 +237,40 @@
   </entry>
   
   <entry>
+    <title>域名系统DNS简介</title>
+    <link href="http://zsk.gdinit.cn/2016/11/16/%E5%88%86%E4%BA%AB%E4%BC%9A-DNS%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/"/>
+    <id>http://zsk.gdinit.cn/2016/11/16/分享会-DNS域名解析系统简介/</id>
+    <published>2016-11-15T16:00:00.000Z</published>
+    <updated>2017-09-21T05:26:30.691Z</updated>
+    
+    <content type="html">&lt;p&gt; DNS域名系统的简单介绍，以及部分域名解析的巧妙用法。以及hosts文件的介绍，这里有能上天的hosts文件（定时更新）: &lt;code&gt;https://raw.githubusercontent.com/racaljk/hosts/master/hosts&lt;/code&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;DNS&quot;&gt;&lt;a href=&quot;#DNS&quot; class=&quot;headerlink&quot; title=&quot;DNS&quot;&gt;&lt;/a&gt;DNS&lt;/h1&gt;&lt;p&gt;DNS（Domain Name System，域名系统），因特网上作为域名和IP地址相互映射的一个分布式数据库，能够使用户更方便的访问互联网，而不用去记住能够被机器直接读取的IP数串。通过主机名，最终得到该主机名对应的IP地址的过程叫做域名解析（或主机名解析）。DNS协议运行在UDP协议之上，使用端口号53。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvvustmj20zk0k0gnp.jpg&quot; alt=&quot;1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvvzykuj20zk0k077l.jpg&quot; alt=&quot;2.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvwb39wj20zk0k00vp.jpg&quot; alt=&quot;3.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvwh6fnj20zk0k040i.jpg&quot; alt=&quot;4.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1facjvwwdqsj20zk0k079f.jpg&quot; alt=&quot;5.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvx03rzj20zk0k0tav.jpg&quot; alt=&quot;6.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvx69d4j20zk0k0gnj.jpg&quot; alt=&quot;7.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvxe702j20zk0k0q5l.jpg&quot; alt=&quot;8.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvxovtej20zk0k040u.jpg&quot; alt=&quot;9.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;通过这个hosts，我们就可以上那些我们“无法连接”的网站。&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/16/分享会-DNS域名解析系统简介/&quot;&gt;域名系统DNS简介&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;严浩林&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; DNS域名系统的简单介绍，以及部分域名解析的巧妙用法。以及hosts文件的介绍，这里有能上天的hosts文件（定时更新）: &lt;code&gt;https://raw.githubusercontent.com/racaljk/hosts/master/hosts&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+      <category term="分享会" scheme="http://zsk.gdinit.cn/tags/%E5%88%86%E4%BA%AB%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PPT-宏及其应用</title>
     <link href="http://zsk.gdinit.cn/2016/11/16/%E5%88%86%E4%BA%AB%E4%BC%9A-PPT%E5%AE%8F%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/"/>
     <id>http://zsk.gdinit.cn/2016/11/16/分享会-PPT宏及其应用/</id>
@@ -263,35 +297,6 @@
       <category term="PPT" scheme="http://zsk.gdinit.cn/tags/PPT/"/>
     
       <category term="活动部" scheme="http://zsk.gdinit.cn/tags/%E6%B4%BB%E5%8A%A8%E9%83%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信小程序</title>
-    <link href="http://zsk.gdinit.cn/2016/11/16/%E5%88%86%E4%BA%AB%E4%BC%9A-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://zsk.gdinit.cn/2016/11/16/分享会-微信小程序/</id>
-    <published>2016-11-15T16:00:00.000Z</published>
-    <updated>2017-09-21T05:26:30.709Z</updated>
-    
-    <content type="html">&lt;p&gt;  教你什么是微信小程序，了解小程序，走向新时代的大门。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1fadtxdo3ssj20zk0k0wfx.jpg&quot; alt=&quot;1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/8f6eb021jw1fadtxdulwwj20zk0k0tal.jpg&quot; alt=&quot;2.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1fadtyc99lrj20zk0k0417.jpg&quot; alt=&quot;3.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1fadtyclt7oj20zk0k0whz.jpg&quot; alt=&quot;4.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1fadtygp3xgj20zk0k076p.jpg&quot; alt=&quot;5.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8f6eb021jw1fadtygz93kj20zk0k041b.jpg&quot; alt=&quot;6.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8f6eb021jw1fadtyj88iej20zk0k0q56.jpg&quot; alt=&quot;7.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1fadtyjgxp0j20zk0k00ut.jpg&quot; alt=&quot;8.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1faduuyyh1jj20zk0k0jta.jpg&quot; alt=&quot;9.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1faduuz6292j20zk0k0dhq.jpg&quot; alt=&quot;10.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1faduuzhwxij20zk0k0mzu.jpg&quot; alt=&quot;11.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1faduuzn2udj20zk0k0gn4.jpg&quot; alt=&quot;12.jpg&quot;&gt;&lt;br&gt;完&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/16/分享会-微信小程序/&quot;&gt;微信小程序&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;李嘉伟&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;  教你什么是微信小程序，了解小程序，走向新时代的大门。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="网编" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BC%96/"/>
-    
-      <category term="编程" scheme="http://zsk.gdinit.cn/tags/%E7%BC%96%E7%A8%8B/"/>
-    
-      <category term="微信开发" scheme="http://zsk.gdinit.cn/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -335,77 +340,31 @@
   </entry>
   
   <entry>
-    <title>域名系统DNS简介</title>
-    <link href="http://zsk.gdinit.cn/2016/11/16/%E5%88%86%E4%BA%AB%E4%BC%9A-DNS%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90%E7%B3%BB%E7%BB%9F%E7%AE%80%E4%BB%8B/"/>
-    <id>http://zsk.gdinit.cn/2016/11/16/分享会-DNS域名解析系统简介/</id>
+    <title>微信小程序</title>
+    <link href="http://zsk.gdinit.cn/2016/11/16/%E5%88%86%E4%BA%AB%E4%BC%9A-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://zsk.gdinit.cn/2016/11/16/分享会-微信小程序/</id>
     <published>2016-11-15T16:00:00.000Z</published>
-    <updated>2017-09-21T05:26:30.691Z</updated>
+    <updated>2017-09-21T05:26:30.709Z</updated>
     
-    <content type="html">&lt;p&gt; DNS域名系统的简单介绍，以及部分域名解析的巧妙用法。以及hosts文件的介绍，这里有能上天的hosts文件（定时更新）: &lt;code&gt;https://raw.githubusercontent.com/racaljk/hosts/master/hosts&lt;/code&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;DNS&quot;&gt;&lt;a href=&quot;#DNS&quot; class=&quot;headerlink&quot; title=&quot;DNS&quot;&gt;&lt;/a&gt;DNS&lt;/h1&gt;&lt;p&gt;DNS（Domain Name System，域名系统），因特网上作为域名和IP地址相互映射的一个分布式数据库，能够使用户更方便的访问互联网，而不用去记住能够被机器直接读取的IP数串。通过主机名，最终得到该主机名对应的IP地址的过程叫做域名解析（或主机名解析）。DNS协议运行在UDP协议之上，使用端口号53。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvvustmj20zk0k0gnp.jpg&quot; alt=&quot;1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvvzykuj20zk0k077l.jpg&quot; alt=&quot;2.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvwb39wj20zk0k00vp.jpg&quot; alt=&quot;3.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvwh6fnj20zk0k040i.jpg&quot; alt=&quot;4.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1facjvwwdqsj20zk0k079f.jpg&quot; alt=&quot;5.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvx03rzj20zk0k0tav.jpg&quot; alt=&quot;6.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvx69d4j20zk0k0gnj.jpg&quot; alt=&quot;7.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1facjvxe702j20zk0k0q5l.jpg&quot; alt=&quot;8.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1facjvxovtej20zk0k040u.jpg&quot; alt=&quot;9.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;通过这个hosts，我们就可以上那些我们“无法连接”的网站。&lt;/p&gt;
+    <content type="html">&lt;p&gt;  教你什么是微信小程序，了解小程序，走向新时代的大门。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1fadtxdo3ssj20zk0k0wfx.jpg&quot; alt=&quot;1.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/large/8f6eb021jw1fadtxdulwwj20zk0k0tal.jpg&quot; alt=&quot;2.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1fadtyc99lrj20zk0k0417.jpg&quot; alt=&quot;3.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1fadtyclt7oj20zk0k0whz.jpg&quot; alt=&quot;4.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1fadtygp3xgj20zk0k076p.jpg&quot; alt=&quot;5.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8f6eb021jw1fadtygz93kj20zk0k041b.jpg&quot; alt=&quot;6.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw1024/8f6eb021jw1fadtyj88iej20zk0k0q56.jpg&quot; alt=&quot;7.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1fadtyjgxp0j20zk0k00ut.jpg&quot; alt=&quot;8.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1faduuyyh1jj20zk0k0jta.jpg&quot; alt=&quot;9.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw1024/8f6eb021jw1faduuz6292j20zk0k0dhq.jpg&quot; alt=&quot;10.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw1024/8f6eb021jw1faduuzhwxij20zk0k0mzu.jpg&quot; alt=&quot;11.jpg&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw1024/8f6eb021jw1faduuzn2udj20zk0k0gn4.jpg&quot; alt=&quot;12.jpg&quot;&gt;&lt;br&gt;完&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/16/分享会-DNS域名解析系统简介/&quot;&gt;域名系统DNS简介&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;严浩林&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/16/分享会-微信小程序/&quot;&gt;微信小程序&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;李嘉伟&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt; DNS域名系统的简单介绍，以及部分域名解析的巧妙用法。以及hosts文件的介绍，这里有能上天的hosts文件（定时更新）: &lt;code&gt;https://raw.githubusercontent.com/racaljk/hosts/master/hosts&lt;/code&gt;&lt;/p&gt;
+      &lt;p&gt;  教你什么是微信小程序，了解小程序，走向新时代的大门。&lt;br&gt;
     
     </summary>
     
     
-      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
+      <category term="网编" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BC%96/"/>
     
-      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+      <category term="编程" scheme="http://zsk.gdinit.cn/tags/%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="分享会" scheme="http://zsk.gdinit.cn/tags/%E5%88%86%E4%BA%AB%E4%BC%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>家用路由器的配置</title>
-    <link href="http://zsk.gdinit.cn/2016/11/04/%E5%AE%B6%E7%94%A8%E8%B7%AF%E7%94%B1%E5%99%A8%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
-    <id>http://zsk.gdinit.cn/2016/11/04/家用路由器的配置/</id>
-    <published>2016-11-03T16:00:00.000Z</published>
-    <updated>2017-09-21T05:26:30.747Z</updated>
-    
-    <content type="html">&lt;p&gt;简单介绍家用路由器的配置以及实用技巧，内容涉及到路由器接入网络的配置 、DHCP服务、IP与Mac绑定以及网速限与其他配置&lt;br&gt;下载PPT源文件：&lt;a href=&quot;http://pan.baidu.com/s/1dF9iAtF&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pan.baidu.com/s/1dF9iAtF&lt;/a&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDjw1f9g2qkghhpj30qo0k03zg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/006rmJyDjw1f9g2qm1opjj30qo0k0q4d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qmh5jgj30qo0k03zu.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qn5zfoj30qo0k03zk.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qnmvj3j30qo0k0wfn.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qo6kjgj30qo0k0q4e.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qoop8qj30qo0k0q4r.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qp3ixsj30qo0k0myh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qpkwx1j30qo0k0t9x.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qq1cz7j30qo0k0gn0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/006rmJyDjw1f9g2qqgkwnj30qo0k0q4l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/04/家用路由器的配置/&quot;&gt;家用路由器的配置&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;巫智霖&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;简单介绍家用路由器的配置以及实用技巧，内容涉及到路由器接入网络的配置 、DHCP服务、IP与Mac绑定以及网速限与其他配置&lt;br&gt;下载PPT源文件：&lt;a href=&quot;http://pan.baidu.com/s/1dF9iAtF&quot;&gt;http://pan.baidu.com/s/1dF9iAtF&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
-    
-      <category term="分享会" scheme="http://zsk.gdinit.cn/tags/%E5%88%86%E4%BA%AB%E4%BC%9A/"/>
-    
-      <category term="路由器" scheme="http://zsk.gdinit.cn/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+      <category term="微信开发" scheme="http://zsk.gdinit.cn/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -499,49 +458,43 @@
   </entry>
   
   <entry>
-    <title>Excel之偷懒艺术</title>
-    <link href="http://zsk.gdinit.cn/2016/10/19/Excel%E4%B9%8B%E5%81%B7%E6%87%92%E8%89%BA%E6%9C%AF/"/>
-    <id>http://zsk.gdinit.cn/2016/10/19/Excel之偷懒艺术/</id>
-    <published>2016-10-18T16:00:00.000Z</published>
-    <updated>2017-09-21T05:26:30.424Z</updated>
+    <title>家用路由器的配置</title>
+    <link href="http://zsk.gdinit.cn/2016/11/04/%E5%AE%B6%E7%94%A8%E8%B7%AF%E7%94%B1%E5%99%A8%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>http://zsk.gdinit.cn/2016/11/04/家用路由器的配置/</id>
+    <published>2016-11-03T16:00:00.000Z</published>
+    <updated>2017-09-21T05:26:30.747Z</updated>
     
-    <content type="html">&lt;p&gt;教你如何使用Excel办公软件快速实现数据匹配和与word交互制作名片，ps：本此内容实操性所在比例比较多，感兴趣者可以从以下连接下载文件进行操作。&lt;/p&gt;
-&lt;p&gt;详细PPT与操作文件：&lt;a href=&quot;http://pan.baidu.com/s/1dFojd89&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pan.baidu.com/s/1dFojd89&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;简单介绍家用路由器的配置以及实用技巧，内容涉及到路由器接入网络的配置 、DHCP服务、IP与Mac绑定以及网速限与其他配置&lt;br&gt;下载PPT源文件：&lt;a href=&quot;http://pan.baidu.com/s/1dF9iAtF&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pan.baidu.com/s/1dF9iAtF&lt;/a&gt;&lt;/p&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyayzg5xj30qo0ezgm8.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb2gv2mj30qo0ezwer.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb2zoh5j30qo0ezwer.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb3lo9lj30qo0ezq3g.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb4fc6aj30qo0ez74m.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zyb4ramdj30qo0ezt9l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb55l44j30qo0ezq42.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb5pkqdj30qo0ez74s.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zyb6331ij30qo0ezwfu.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb92ry1j30qo0ezmxh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb9g8tdj30qo0ezdgz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb9uxmgj30qo0ezt9l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zybafg8vj30qo0ezwg1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zybavczvj30qo0ez3z6.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zybb4hhmj30qo0ezjrz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDjw1f9g2qkghhpj30qo0k03zg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/006rmJyDjw1f9g2qm1opjj30qo0k0q4d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qmh5jgj30qo0k03zu.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qn5zfoj30qo0k03zk.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qnmvj3j30qo0k0wfn.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qo6kjgj30qo0k0q4e.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qoop8qj30qo0k0q4r.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qp3ixsj30qo0k0myh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDjw1f9g2qpkwx1j30qo0k0t9x.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDjw1f9g2qq1cz7j30qo0k0gn0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww4.sinaimg.cn/mw690/006rmJyDjw1f9g2qqgkwnj30qo0k0q4l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/10/19/Excel之偷懒艺术/&quot;&gt;Excel之偷懒艺术&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;陈仕健&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/11/04/家用路由器的配置/&quot;&gt;家用路由器的配置&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;巫智霖&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;教你如何使用Excel办公软件快速实现数据匹配和与word交互制作名片，ps：本此内容实操性所在比例比较多，感兴趣者可以从以下连接下载文件进行操作。&lt;/p&gt;
-&lt;p&gt;详细PPT与操作文件：&lt;a href=&quot;http://pan.baidu.com/s/1dFojd89&quot;&gt;http://pan.baidu.com/s/1dFojd89&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;简单介绍家用路由器的配置以及实用技巧，内容涉及到路由器接入网络的配置 、DHCP服务、IP与Mac绑定以及网速限与其他配置&lt;br&gt;下载PPT源文件：&lt;a href=&quot;http://pan.baidu.com/s/1dF9iAtF&quot;&gt;http://pan.baidu.com/s/1dF9iAtF&lt;/a&gt;&lt;/p&gt;
     
     </summary>
     
     
-      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
     
-      <category term="excel" scheme="http://zsk.gdinit.cn/tags/excel/"/>
+      <category term="分享会" scheme="http://zsk.gdinit.cn/tags/%E5%88%86%E4%BA%AB%E4%BC%9A/"/>
     
-      <category term="实用" scheme="http://zsk.gdinit.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+      <category term="路由器" scheme="http://zsk.gdinit.cn/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
   </entry>
   
@@ -667,6 +620,53 @@
   </entry>
   
   <entry>
+    <title>Excel之偷懒艺术</title>
+    <link href="http://zsk.gdinit.cn/2016/10/19/Excel%E4%B9%8B%E5%81%B7%E6%87%92%E8%89%BA%E6%9C%AF/"/>
+    <id>http://zsk.gdinit.cn/2016/10/19/Excel之偷懒艺术/</id>
+    <published>2016-10-18T16:00:00.000Z</published>
+    <updated>2017-09-21T05:26:30.424Z</updated>
+    
+    <content type="html">&lt;p&gt;教你如何使用Excel办公软件快速实现数据匹配和与word交互制作名片，ps：本此内容实操性所在比例比较多，感兴趣者可以从以下连接下载文件进行操作。&lt;/p&gt;
+&lt;p&gt;详细PPT与操作文件：&lt;a href=&quot;http://pan.baidu.com/s/1dFojd89&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://pan.baidu.com/s/1dFojd89&lt;/a&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyayzg5xj30qo0ezgm8.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb2gv2mj30qo0ezwer.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb2zoh5j30qo0ezwer.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb3lo9lj30qo0ezq3g.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb4fc6aj30qo0ez74m.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zyb4ramdj30qo0ezt9l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb55l44j30qo0ezq42.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb5pkqdj30qo0ez74s.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zyb6331ij30qo0ezwfu.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb92ry1j30qo0ezmxh.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/mw690/006rmJyDgw1f8zyb9g8tdj30qo0ezdgz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zyb9uxmgj30qo0ezt9l.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/mw690/006rmJyDgw1f8zybafg8vj30qo0ezwg1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zybavczvj30qo0ez3z6.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://ww2.sinaimg.cn/mw690/006rmJyDgw1f8zybb4hhmj30qo0ezjrz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;span style=&quot;font-size:12px&quot;&gt;本文标题: &lt;a href=&quot;http://zsk.gdinit.cn/2016/10/19/Excel之偷懒艺术/&quot;&gt;Excel之偷懒艺术&lt;/a&gt;&lt;br&gt;文章作者: &lt;a href=&quot;http://itxiehui.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;陈仕健&lt;/a&gt;&lt;br&gt;许可协议: &lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;©署名-非商用-相同方式共享 4.0&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;教你如何使用Excel办公软件快速实现数据匹配和与word交互制作名片，ps：本此内容实操性所在比例比较多，感兴趣者可以从以下连接下载文件进行操作。&lt;/p&gt;
+&lt;p&gt;详细PPT与操作文件：&lt;a href=&quot;http://pan.baidu.com/s/1dFojd89&quot;&gt;http://pan.baidu.com/s/1dFojd89&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="excel" scheme="http://zsk.gdinit.cn/tags/excel/"/>
+    
+      <category term="实用" scheme="http://zsk.gdinit.cn/tags/%E5%AE%9E%E7%94%A8/"/>
+    
+      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>扁平化PPT设计</title>
     <link href="http://zsk.gdinit.cn/2016/09/23/%E6%89%81%E5%B9%B3%E5%8C%96PPT%E8%AE%BE%E8%AE%A1/"/>
     <id>http://zsk.gdinit.cn/2016/09/23/扁平化PPT设计/</id>
@@ -752,9 +752,9 @@
     </summary>
     
     
-      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
-    
       <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="网络" scheme="http://zsk.gdinit.cn/tags/%E7%BD%91%E7%BB%9C/"/>
     
       <category term="分享会" scheme="http://zsk.gdinit.cn/tags/%E5%88%86%E4%BA%AB%E4%BC%9A/"/>
     
@@ -916,9 +916,9 @@
     </summary>
     
     
-      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
-    
       <category term="周四分享" scheme="http://zsk.gdinit.cn/tags/%E5%91%A8%E5%9B%9B%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
     
       <category term="VR" scheme="http://zsk.gdinit.cn/tags/VR/"/>
     
@@ -970,9 +970,9 @@
     </summary>
     
     
-      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
-    
       <category term="周四分享" scheme="http://zsk.gdinit.cn/tags/%E5%91%A8%E5%9B%9B%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="基础" scheme="http://zsk.gdinit.cn/tags/%E5%9F%BA%E7%A1%80/"/>
     
       <category term="机器学习" scheme="http://zsk.gdinit.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
